@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e65c88-76f7-4b66-9d51-89baf3dea38b" name="Changes" comment="初始化完成" />
+    <list default="true" id="28e65c88-76f7-4b66-9d51-89baf3dea38b" name="Changes" comment="初始化完成">
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-client/src/main/java/tech/muyi/client/dto/UserInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-client/src/main/java/tech/muyi/client/dto/UserInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-core/src/main/java/tech/muyi/core/dao/UserInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-core/src/main/java/tech/muyi/core/dao/UserInfoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-dependency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-dependency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-muyi-web-web/src/main/java/tech/muyi/web/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tech-muyi-web-web/src/main/java/tech/muyi/web/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +31,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -45,8 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.format.on.save.advertiser.fired" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tech-muyi-sys-core/src/main/java/tech/muyi/core/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tech-muyi-web-core/src/main/java/tech/muyi/core/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -59,18 +67,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\muyi\tech-muyi-sys\tech-muyi-sys-core\src\main\java\com\muyi\core\config" />
-      <recent name="D:\muyi\tech-muyi-sys\tech-muyi-sys-core\src\main\resources\mybatis" />
-      <recent name="D:\muyi\tech-muyi-sys\tech-muyi-sys-core\src\main\resources" />
-      <recent name="D:\muyi\tech-muyi-sys\tech-muyi-sys-web\src\main\resources" />
+      <recent name="D:\muyi\tech-muyi-web\tech-muyi-web-core\src\main\java\com\muyi\core\config" />
+      <recent name="D:\muyi\tech-muyi-web\tech-muyi-web-core\src\main\resources\mybatis" />
+      <recent name="D:\muyi\tech-muyi-web\tech-muyi-web-core\src\main\resources" />
+      <recent name="D:\muyi\tech-muyi-web\tech-muyi-web-web\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AppConfig">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="tech-muyi-web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="tech-muyi-web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
     <configuration name="AppConfig" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tech-muyi-sys-web" />
+      <module name="tech-muyi-web-web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tech.muyi.web.config.*" />
@@ -96,9 +123,6 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SshConsoleOptionsProvider">
-    <option name="myEncoding" value="UTF-8" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="28e65c88-76f7-4b66-9d51-89baf3dea38b" name="Changes" comment="" />
